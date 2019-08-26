@@ -1,0 +1,40 @@
+.
+├── homepage
+│   ├── views.py
+│   ├── urls.py
+│   ├── tests.py
+│   ├── templates
+│   │   └── index.html
+│   ├── models.py
+│   ├── migrations
+│   │   └── __init__.py
+│   ├── apps.py
+│   ├── admin.py
+│   └── __init__.py
+├── authenticate
+│   ├── views.py
+│   ├── tests.py
+│   ├── templates
+│   │   └── registration
+│   │       ├── logout.html
+│   │       └── login.html
+│   ├── models.py
+│   ├── migrations
+│   │   └── __init__.py
+│   ├── apps.py
+│   ├── admin.py
+│   └── __init__.py
+└── aboutpage
+    ├── views.py
+    ├── urls.py
+    ├── tests.py
+    ├── templates
+    │   └── about.html
+    ├── models.py
+    ├── migrations
+    │   └── __init__.py
+    ├── apps.py
+    ├── admin.py
+    └── __init__.py
+
+10 directories, 27 files
