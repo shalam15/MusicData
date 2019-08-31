@@ -24,11 +24,13 @@ from django.contrib.auth import views as auth_views
 
 from api.v1.account.views import UserViewSet
 from api.v1.musicapi.views import MusicView
+from api.v1.authentication.views import AuthenticationView
 
 
 router = routers.DefaultRouter()
 router.register(r'users', UserViewSet)
 router.register(r'music', MusicView)
+router.register(r'auth',  AuthenticationView)
 
 urlpatterns = [
     # DEFAULT HOMEPAGE

@@ -8,4 +8,3 @@ from .serializers import AuthenticationSerializer
 class AuthenticationView(viewsets.ModelViewSet):
     queryset = Authentication.objects.all()
     serializer_class = AuthenticationSerializer
-

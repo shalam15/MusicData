@@ -72,6 +72,7 @@ API_APPS = (
     'api.v1.artisteapi',
     'api.v1.playlistapi',
     'api.v1.albumapi',
+    'api.v1.authentication',
 
 )
 
