@@ -6,7 +6,7 @@ coreapi-cli==1.0.9
 coreschema==0.0.4
 Django==2.2.4
 django-environ==0.4.1
-djangorestframework==3.10.2
+djangorestframework==3.11.2
 idna==2.8
 itypes==1.1.0
 Jinja2==2.10.1
